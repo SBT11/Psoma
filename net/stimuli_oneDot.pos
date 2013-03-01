@@ -1,0 +1,23 @@
+##########################################################
+#
+#	PSoma - Stimuli - Network File
+#
+# Network file array dimensions are to be defined on the first line (lines x columns.
+# Defines the position (in mm) of the dot stimuli
+#
+# JP - 11/01/2012
+#
+##########################################################
+
+###############################
+# Array Dimensions
+###############################
+1 3
+# lines = one line per dot stimulus
+# columns = X position (mm), Y position (mm), Z position (mm)
+
+
+###############################
+# Array
+###############################
+     0     0     0

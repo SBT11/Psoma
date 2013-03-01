@@ -1,0 +1,251 @@
+# depslib dependency file v1.0
+1358241035 source:c:\documents and settings\nca\mes documents\jp\psoma\src\arm.cpp
+	"arm.h"
+
+1355838758 c:\documents and settings\nca\mes documents\jp\psoma\src\arm.h
+	<math.h>
+	<cmath>
+	"network_co.h"
+	"global.h"
+
+1355306937 c:\documents and settings\nca\mes documents\jp\psoma\src\network_co.h
+	<iostream>
+	<sstream>
+	<string>
+	<fstream>
+
+1358163099 c:\documents and settings\nca\mes documents\jp\psoma\src\global.h
+	<iostream>
+	<vector>
+	"mc_param.h"
+	"mr_param.h"
+	"psoma_param.h"
+	"arm_param.h"
+
+1355411646 c:\documents and settings\nca\mes documents\jp\psoma\src\mc_param.h
+	<string>
+	<iostream>
+	"fileparsers.h"
+
+1354901660 c:\documents and settings\nca\mes documents\jp\psoma\src\fileparsers.h
+	<iostream>
+	<sstream>
+	<string>
+	<fstream>
+
+1357924706 c:\documents and settings\nca\mes documents\jp\psoma\src\mr_param.h
+	<string>
+	<iostream>
+	"fileparsers.h"
+
+1358182646 c:\documents and settings\nca\mes documents\jp\psoma\src\psoma_param.h
+	<string>
+	<iostream>
+	"fileparsers.h"
+
+1355505656 c:\documents and settings\nca\mes documents\jp\psoma\src\arm_param.h
+	"fileparsers.h"
+
+1355505753 source:c:\documents and settings\nca\mes documents\jp\psoma\src\arm_param.cpp
+	"arm_param.h"
+
+1355242085 source:c:\documents and settings\nca\mes documents\jp\psoma\src\fileparsers.cpp
+	"fileparsers.h"
+
+1355937840 source:c:\documents and settings\nca\mes documents\jp\psoma\src\fingertip.cpp
+	"fingertip.h"
+
+1355841972 c:\documents and settings\nca\mes documents\jp\psoma\src\fingertip.h
+	<sstream>
+	<string>
+	<fstream>
+	"sensor_iit.h"
+	"global.h"
+	"network_co.h"
+
+1355939111 c:\documents and settings\nca\mes documents\jp\psoma\src\sensor_iit.h
+	<stdlib.h>
+	<iostream>
+	<math.h>
+	"global.h"
+
+1355483668 source:c:\documents and settings\nca\mes documents\jp\psoma\src\global.cpp
+	"global.h"
+
+1358181112 source:c:\documents and settings\nca\mes documents\jp\psoma\src\lifnetwork.cpp
+	"lifnetwork.h"
+
+1358181120 c:\documents and settings\nca\mes documents\jp\psoma\src\lifnetwork.h
+	"global.h"
+	"lifneuron.h"
+	"network_co.h"
+
+1357925898 c:\documents and settings\nca\mes documents\jp\psoma\src\lifneuron.h
+	<vector>
+	<math.h>
+	"global.h"
+
+1358157340 source:c:\documents and settings\nca\mes documents\jp\psoma\src\lifneuron.cpp
+	"lifneuron.h"
+
+1358183040 source:c:\documents and settings\nca\mes documents\jp\psoma\src\main.cpp
+	"main.h"
+
+1357901624 c:\documents and settings\nca\mes documents\jp\psoma\src\main.h
+	<stdlib.h>
+	<time.h>
+	"global.h"
+	"lifneuron.h"
+	"network_co.h"
+	"testing_functions.h"
+	"fingertip.h"
+	"arm.h"
+	"lifnetwork.h"
+
+1355334536 c:\documents and settings\nca\mes documents\jp\psoma\src\testing_functions.h
+	"global.h"
+	"sensor_iit.h"
+
+1358185013 source:c:\documents and settings\nca\mes documents\jp\psoma\src\mc_param.cpp
+	"mc_param.h"
+
+1358185036 source:c:\documents and settings\nca\mes documents\jp\psoma\src\mr_param.cpp
+	"mr_param.h"
+
+1355400067 source:c:\documents and settings\nca\mes documents\jp\psoma\src\network_co.cpp
+	"network_co.h"
+
+1358258171 source:c:\documents and settings\nca\mes documents\jp\psoma\src\psoma_param.cpp
+	"psoma_param.h"
+
+1355939588 source:c:\documents and settings\nca\mes documents\jp\psoma\src\sensor_iit.cpp
+	"sensor_iit.h"
+
+1355334554 source:c:\documents and settings\nca\mes documents\jp\psoma\src\testing_functions.cpp
+	"testing_functions.h"
+
+1358241034 source:d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\arm.cpp
+	"arm.h"
+
+1355838758 d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\arm.h
+	<math.h>
+	<cmath>
+	"network_co.h"
+	"global.h"
+
+1355306936 d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\network_co.h
+	<iostream>
+	<sstream>
+	<string>
+	<fstream>
+
+1358163098 d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\global.h
+	<iostream>
+	<vector>
+	"mc_param.h"
+	"mr_param.h"
+	"psoma_param.h"
+	"arm_param.h"
+
+1355411646 d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\mc_param.h
+	<string>
+	<iostream>
+	"fileparsers.h"
+
+1354901660 d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\fileparsers.h
+	<iostream>
+	<sstream>
+	<string>
+	<fstream>
+
+1357924706 d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\mr_param.h
+	<string>
+	<iostream>
+	"fileparsers.h"
+
+1358182646 d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\psoma_param.h
+	<string>
+	<iostream>
+	"fileparsers.h"
+
+1355505656 d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\arm_param.h
+	"fileparsers.h"
+
+1355505752 source:d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\arm_param.cpp
+	"arm_param.h"
+
+1355242084 source:d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\fileparsers.cpp
+	"fileparsers.h"
+
+1355937840 source:d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\fingertip.cpp
+	"fingertip.h"
+
+1355841972 d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\fingertip.h
+	<sstream>
+	<string>
+	<fstream>
+	"sensor_iit.h"
+	"global.h"
+	"network_co.h"
+
+1355939110 d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\sensor_iit.h
+	<stdlib.h>
+	<iostream>
+	<math.h>
+	"global.h"
+
+1355483668 source:d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\global.cpp
+	"global.h"
+
+1358181112 source:d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\lifnetwork.cpp
+	"lifnetwork.h"
+
+1358181120 d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\lifnetwork.h
+	"global.h"
+	"lifneuron.h"
+	"network_co.h"
+
+1357925898 d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\lifneuron.h
+	<vector>
+	<math.h>
+	"global.h"
+
+1358157340 source:d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\lifneuron.cpp
+	"lifneuron.h"
+
+1358185012 source:d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\mc_param.cpp
+	"mc_param.h"
+
+1358185036 source:d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\mr_param.cpp
+	"mr_param.h"
+
+1355400066 source:d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\network_co.cpp
+	"network_co.h"
+
+1358258170 source:d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\psoma_param.cpp
+	"psoma_param.h"
+
+1355939588 source:d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\sensor_iit.cpp
+	"sensor_iit.h"
+
+1355334554 source:d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\testing_functions.cpp
+	"testing_functions.h"
+
+1355334536 d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\testing_functions.h
+	"global.h"
+	"sensor_iit.h"
+
+1358949834 source:d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\main.cpp
+	"main.h"
+
+1357901624 d:\doc\centrale\enjeu\matlab_metricalinformation_lib\psoma\src\main.h
+	<stdlib.h>
+	<time.h>
+	"global.h"
+	"lifneuron.h"
+	"network_co.h"
+	"testing_functions.h"
+	"fingertip.h"
+	"arm.h"
+	"lifnetwork.h"
+

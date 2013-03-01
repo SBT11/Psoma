@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="psoma" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin_Debug/psoma" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin_Debug/" />
+				<Option object_output="buildfiles_Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin_Release/psoma" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin_Release/" />
+				<Option object_output="buildfiles_Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="src/arm.cpp" />
+		<Unit filename="src/arm.h" />
+		<Unit filename="src/arm_param.cpp" />
+		<Unit filename="src/arm_param.h" />
+		<Unit filename="src/fileparsers.cpp" />
+		<Unit filename="src/fileparsers.h" />
+		<Unit filename="src/fingertip.cpp" />
+		<Unit filename="src/fingertip.h" />
+		<Unit filename="src/global.cpp" />
+		<Unit filename="src/global.h" />
+		<Unit filename="src/lifnetwork.cpp" />
+		<Unit filename="src/lifnetwork.h" />
+		<Unit filename="src/lifneuron.cpp" />
+		<Unit filename="src/lifneuron.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/main.h" />
+		<Unit filename="src/mc_param.cpp" />
+		<Unit filename="src/mc_param.h" />
+		<Unit filename="src/mr_param.cpp" />
+		<Unit filename="src/mr_param.h" />
+		<Unit filename="src/network_co.cpp" />
+		<Unit filename="src/network_co.h" />
+		<Unit filename="src/psoma_param.cpp" />
+		<Unit filename="src/psoma_param.h" />
+		<Unit filename="src/sensor_iit.cpp" />
+		<Unit filename="src/sensor_iit.h" />
+		<Unit filename="src/testing_functions.cpp" />
+		<Unit filename="src/testing_functions.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

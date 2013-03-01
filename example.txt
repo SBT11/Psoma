@@ -1,0 +1,33 @@
+PSoma - example file
+====================
+
+
+Cet exemple va servir à générer une base de données pour y quantifier l'information métrique. Cette base de données sera composée de 20 trials pour chacun de 26 caractères Braille.
+
+
+
+1 - compilez les projet (à l'aide de l'IDE 'codeblocks')
+
+2 - ouvrez les fichiers texts 'config/psoma.conf' et 'config/arm.conf' et vérifiez  
+respectivement que les fichiers de stimuli et de trajectoire sont '../net/
+stimuli_AZ.pos' et '../net/arm_AZ.trj'. Cela permettra au système de lire successivement 
+chaque lettre de l'alphabet Braille.
+
+3 - ouvrez 'config/arm.conf' et changer le nombre de répétitions demandées au système 
+('repeat_nb') à 20. Cela permettra d'obtenir les 20 trials pour la base de données.
+
+4 - à partir du fichier 'bin' (ou 'bin_debug' ...) et/ou en utilisant l'IDE, lancez le 
+programme psoma. Vous devriez voir l'évolution du système dans le terminal. Au début, un 
+récapitulatif des paramètres est donné, si un 'ERROR - ...' ou 'WARNING - ...' apparait, 
+il est très probable qu'un fichier ou paramètre n'ait pas pu être trouvé.
+
+5 - l'activité des neurones est sauvée dans le répertoire '../data/LIF_spike.dat'. Pour 
+être exploitable pour l'analyse informationelle, il faut associer chaque réponse à son 
+stimulus. Pour cela, utilisez le script MATLAB 'scripts/PostProcessST.m'. Le fichier 
+text de sorti (par defaut 'ST.dat') est composé de 4 colonnes: 
+	stimulus index | trial index | time (ms) | neuron index
+Ce fichier est directement lisible par la fonction d'information metrique
+
+6 - utilisez la fonction d'information métrique sur la base de données ainsi crée (cf. 
+'README.txt' du répertoire de l'information métrique pour un exemple d'utilisation de 
+cette fonction)
